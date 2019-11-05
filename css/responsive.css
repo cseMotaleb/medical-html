@@ -1,0 +1,257 @@
+/************************
+ Responsive CSS
+*************************/
+@media (min-width: 768px) {
+  .navbar-custom {
+    background-color: #FFFFFF;
+    padding: 15px 0;
+    -webkit-transition: padding 0.25s;
+    -moz-transition: padding 0.25s;
+    -o-transition: padding 0.25s;
+    -ms-transition: padding 0.25s;
+    transition: padding 0.25s;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -o-transition: padding 0.25s;
+    transition: all 0.25s;
+  }
+  .navbar-custom .navbar-nav> .active> a {
+    border-radius: 3px;
+  }
+  .navbar-custom.affix {
+    background-color: #F5F5F5;
+    padding: 8px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+@media(max-width:768px) {
+  .slider_bg {
+    height: 782px;
+  }
+  .navbar-custom .nav li a {
+    text-align: center;
+  }
+  .item h3 {
+    font-size: 18px;
+  }
+  .banner_content h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .banner_content p {
+    font-size: 15px;
+  }
+  .btn_read {
+    font-size: 13px;
+  }
+  .head_text h1 {
+  font-size: 25px;
+
+  }
+
+  .item p a {
+    font-size: 13px;
+  }
+  .item i {
+    padding-top: 3%;
+  }
+  .container {
+    margin: 0px 15px;
+  }
+  .Opening h1 {
+    font-size: 20px;
+  }
+  .Opening i{
+    font-size: 30px;
+  }
+  .singal_testimonial .photo{
+    max-width: 130px;
+    max-height: 130px;
+    border-radius: 50%;
+  }
+  .singal_testimonial h3{
+    font-size: 15px;
+  }
+  .singal_testimonial .testimonial-title small{
+    font-size: 15px;   
+  }
+  .main_happy h4{
+    font-size: 17px;
+  }
+  .main_happy i{
+    font-size: 18px;
+  }
+  .header_margin{
+  margin-top: 52px;
+}
+}
+
+@media only screen and (max-width:480px) {
+  .slider_bg {
+    height: 1130px;
+  }
+  .navbar-custom .nav li a {
+    text-align: center;
+  }
+  .banner_content h1 {
+    font-size: 23px;
+  }
+  .banner_content p {
+    font-size: 15px;
+  }
+  .btn_read {
+    font-size: 13px;
+  }
+  .head_text h1 {
+    font-size: 20px; 
+  }
+  .main_appointementright h2{
+    font-size: 18px !important;
+    font-weight: 600;
+
+  }
+  .head_text i {
+    color: #0D2D6C;
+    font-size: 15px;
+    margin-top: 0px;
+  }
+  .head_text p {
+    margin-bottom: 24px;
+  }
+  .main_appointementleft h2 {
+    font-size: 20px;
+  }
+  .main_appointementright h2 {
+    font-size: 22px;
+  }
+  .service_single h2 {
+    font-size: 18px;
+  }
+  .Opening h1 {
+    font-size: 27px;
+  }
+  .item h3 {
+    font-size: 18px;
+  }
+  .item p a {
+    font-size: 10px;
+  }
+  .item i {
+    padding-top: 3%;
+  }
+  .item{
+    border: 2px solid #F5F5F5;
+  }
+  .item:hover {
+    border: 2px solid #191584;
+  }
+  .Opening h1 {
+    font-size: 22px;
+  }
+  .main_happy h3{
+  font: 11px;
+  }
+  .main_happy h4{
+  font-size: 16px;
+  }
+  .main_happy i{
+  font-size: 18px;
+  }
+  #download h2 {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  .back-to-top {
+    border-radius: 5%;
+    display: none;
+    width: 30px;
+    height: 35px;
+    line-height: 31px;
+    right: 20px;
+  }
+}
+
+@media only screen and (max-width:320px) {
+  .slider_bg {
+    height: 1100px;
+  }
+  p{
+    font-size: 15px;
+  }
+   .navbar-custom .nav li a {
+    text-align: center;
+  }
+  .banner_content h1 {
+    font-size: 21px;
+  }
+  .banner_content p {
+    font-size: 12px;
+  }
+  .btn_read {
+    font-size: 12px;
+  }
+  .head_text h1 {    
+    font-size: 20px;   
+  }
+
+  .main_appointementright h2{
+    font-size: 15px !important;
+    
+  
+  }
+  .head_text i {
+    color: #0D2D6C;
+    font-size: 14px;
+    margin-top: 0px;
+  }
+  .main_appointementleft h2 {
+    font-size: 20px;
+  }
+  .main_appointementright h2 {
+    font-size: 20px;
+  }
+  .service_single h2 {
+    font-size: 18px;
+  }
+  .Opening h1 {
+    font-size: 22px;
+  }
+   .item h3 {
+    font-size: 18px;
+  }
+  .item p a {
+    font-size: 13px;
+  }
+  .item i {
+    padding-top: 3%;
+  }
+  .item{
+   border: 2px solid #F5F5F5;
+  }
+  .item:hover {
+  border: 2px solid #191584;
+  }
+  .Opening h1 {
+  font-size: 15px;
+ 
+  }
+  #download h2 {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  .back-to-top {
+    border-radius: 5%;
+    display: none;
+    width: 30px;
+    height: 35px;
+    line-height: 31px;
+    right: 20px;
+  }
+}
+
